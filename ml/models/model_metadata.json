@@ -1,0 +1,83 @@
+{
+  "model_type": "random_forest",
+  "is_demo_dataset": true,
+  "dataset_description": "Standard NASA/PROMISE benchmark distribution baseline for development/demo",
+  "sample_count": 2000,
+  "test_sample_count": 400,
+  "metrics": {
+    "accuracy": 0.885,
+    "precision": 0.8535,
+    "recall": 0.9086,
+    "f1_score": 0.8802,
+    "roc_auc": 0.9669
+  },
+  "feature_importances": [
+    [
+      "code_smell_indicators",
+      0.1718
+    ],
+    [
+      "max_nesting_depth",
+      0.1631
+    ],
+    [
+      "loc",
+      0.132
+    ],
+    [
+      "sloc",
+      0.1206
+    ],
+    [
+      "cyclomatic_complexity",
+      0.0946
+    ],
+    [
+      "security_risk_indicators",
+      0.0719
+    ],
+    [
+      "halstead_difficulty",
+      0.0596
+    ],
+    [
+      "halstead_volume",
+      0.0586
+    ],
+    [
+      "blank_lines",
+      0.0431
+    ],
+    [
+      "num_functions",
+      0.0387
+    ],
+    [
+      "avg_func_loc",
+      0.0223
+    ],
+    [
+      "comment_lines",
+      0.0178
+    ],
+    [
+      "num_classes",
+      0.0058
+    ]
+  ],
+  "features": [
+    "loc",
+    "sloc",
+    "comment_lines",
+    "blank_lines",
+    "cyclomatic_complexity",
+    "max_nesting_depth",
+    "num_functions",
+    "num_classes",
+    "avg_func_loc",
+    "halstead_volume",
+    "halstead_difficulty",
+    "code_smell_indicators",
+    "security_risk_indicators"
+  ]
+}
